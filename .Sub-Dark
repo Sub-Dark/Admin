@@ -1,0 +1,704 @@
+     
+
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="//cdn.optimizely.com/js/53588246.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="The largest video chat room community. Explore thousands of free online video chat rooms and meet millions of friendly members worldwide.">
+<meta property="fb:admins" content="100001449723589,1454109112,43900427,577680406,581599100,43983627,1055021987,814160557,100000095024410"/>
+<meta property="fb:app_id" content="130393580323750"/>
+<meta name="og:site_name" content="Paltalk.com" />
+<meta property="og:url" content="http://www.paltalk.com/"/>
+<meta name="keywords" content="free video chat, chat rooms, video chat rooms" /> 
+<meta name="msvalidate.01" content="81A89D7E52AD70849B9A9CE3F09B44FB" />
+<title>Free Video Chat, 5000+ Video Chat Rooms - Paltalk</title>
+<link rel="stylesheet" type="text/css" href="new0312/css/general.css" />
+<link rel="stylesheet" type="text/css" href="new0312/css/index.css" />
+<link rel="stylesheet" type="text/css" href="new0312/css/standart_page.css" />
+<link rel="stylesheet" type="text/css" href="new0312/css/styles-fix.css" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+<script language="javascript"> 
+var isEnglishCountry = "";
+var browserLanguage = "en";
+</script>
+<script type="text/javascript" src="new0312/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="new0312/js/jquery.backgroundPosition.js"></script>
+<script type="text/javascript" src="new0312/js/jquery.easing.1.3.js "></script>
+<script type="text/javascript" src="new0312/js/box-shadow.min.js"></script>
+<script type="text/javascript" src="new0312/js/homepg.js" language="javascript"></script>
+<script type="text/javascript" src="new0312/js/index-page-new0312.js" language="javascript"></script>
+<script type="text/javascript" src="new0312/js/tracking.js" language="javascript"></script>
+<script type="text/javascript" src="new0312/js/weblaunch.js"></script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+function playVideo(id){
+	document.getElementById('thickbox').className="black_overlay show";
+	document.getElementById('tb_window').className="tb_window show";	
+	if(id == "wsj" || id == "wsj-logo" || id == "wsj-readmore" ){
+		document.getElementById('video').innerHTML = '<object type="application/x-shockwave-flash" data="http://flv-mp3.com/i/pic/uflvplayer_500x375.swf" height="300" width="400"><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="movie" value="http://flv-mp3.com/i/pic/uflvplayer_500x375.swf" /><param name="FlashVars" value="way=http://www.paltalk.com/swf/WSJ.flv&amp;swf=http://flv-mp3.com/i/pic/uflvplayer_500x375.swf&amp;w=400&amp;h=300&amp;pic=http://&amp;autoplay=1&amp;tools=1&amp;skin=black&amp;volume=70&amp;q=&amp;comment=" /></object>';
+	}
+	else {	
+		document.getElementById('video').innerHTML = '<object type="application/x-shockwave-flash" data="http://flv-mp3.com/i/pic/uflvplayer_500x375.swf" height="300" width="400"><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="movie" value="http://flv-mp3.com/i/pic/uflvplayer_500x375.swf" /><param name="FlashVars" value="way=http://www.paltalk.com/swf/CNBC.flv&amp;swf=http://flv-mp3.com/i/pic/uflvplayer_500x375.swf&amp;w=400&amp;h=300&amp;pic=http://&amp;autoplay=1&amp;tools=1&amp;skin=black&amp;volume=70&amp;q=&amp;comment=" /></object>';
+	}
+}
+
+function closeVideo(){
+	document.getElementById('thickbox').className="hide";
+	document.getElementById('tb_window').className="hide";
+	document.getElementById('video').innerHTML = '';
+}
+</script>
+</head>
+
+<body class="translate">
+<div id="thickbox" class="hide"></div>
+<div id="tb_window" class="hide">	
+	<a href="#" class="close" onclick="javascript:closeVideo();"><img src="/en/images/fancy_close.png" alt="close" /></a>
+    <div id="video"></div>
+</div>
+
+<!-- header starts here -->
+<link rel="stylesheet" type="text/css" href="new0312/css/smartling.css" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="new0312/css/styles-ie7.css" media="all"/><![endif]-->
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+var bwLang = "en";
+function searchSubmit(){
+	var searchvalue = document.homepagefrm.search_people_input.value;
+	if(searchvalue == '') {
+	   alert ('Enter Search Key');
+	}else {
+	  if(document.getElementById('genderimage').className == "male"){
+		 set_session_cookie("gender",'M');
+	}else{
+		set_session_cookie("gender",'F');
+	}	 
+ 	  document.homepagefrm.action="http://www.paltalk.com/browse/webapp/paltalk/people/FindPeople.wmt";
+	  document.homepagefrm.submit();
+	}
+}
+function set_session_cookie(name, value, expires){
+	var domain =".paltalk.com";
+	domainString = '; domain='+domain;
+	if (!expires)	{
+		document.cookie = name + "=" + escape(value) + "; path=/"+domainString;
+	}
+}
+function setAdvsrchCookie(c_name,value,exdays) {
+set_session_cookie("profile_advoption","profile_show");
+ if(document.getElementById('genderimage').className == "male"){
+		 set_session_cookie("gender",'M');
+	}else{
+		set_session_cookie("gender",'F');
+	}
+window.location.href = "http://www.paltalk.com/browse/webapp/paltalk/people/FindPeople.wmt"; 
+
+}
+</script>
+<!-- Script for smartling -->
+<script type="text/javascript">
+var smtId = "802acd0c2";
+var smtDefaultStyles = false; // set to false to use your own css 
+var smtRedirect = true; 
+var smtProt = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + smtProt + "cdn01.smartling.com/ls/"+ smtId +".js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+//fb12860
+var _kmq = _kmq || [];
+var _kmk = _kmk || '2bb56c6e812dd9127ed99d153aac77f7664caf20';
+function _kms(u){
+setTimeout(function(){
+  var d = document, f = d.getElementsByTagName('script')[0],
+  s = d.createElement('script');
+  s.type = 'text/javascript'; s.async = true; s.src = u;
+  f.parentNode.insertBefore(s, f);
+}, 1);
+}
+_kms('//i.kissmetrics.com/i.js');
+_kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+</script>
+<div id="header-login">
+    <div id="panel">
+        <div class="centered_div">
+            <div class="account_soc_wrap">            	  	
+                <ul id="social_icons">
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.paltalk.com/download.php?refc=107564" target="_blank"><strong>Facebook</strong></a></li>
+                    <li><a href="https://www.twitter.com/intent/tweet?status=Share+Paltalk+http://www.paltalk.com/download.php?refc=107565" target="_blank" class="twitter_soc"><strong>Twitter</strong></a></li>
+                    <li style="margin-right:0px;">
+                        <a href="#" target="_blank" class="unknow_soc"><strong>Unknow</strong></a>
+                        <div class="googleplus"><g:plusone size="medium" annotation="none"></g:plusone></div>
+                    </li>
+                </ul>
+                <a href="#" class="my_account">My Account</a>
+                <div id="signout" class="hide">
+                    <span class="nickname"></span>
+                    <span>|</span>
+                    <a href="https://commerce.paltalk.com/mpt/MyPalTalkHome.jsp">My Account</a>
+                    <span>|</span>
+                    <form action="https://commerce.paltalk.com/sson/login" method="post" id="formlogout" name="logout">
+                        <input type="hidden" name="target" value="http://www.paltalk.com/index.php" />
+                        <input type="hidden" name="action" value="logout"/>
+                    </form>
+                    <a href="javascript:submitLogOut();">Log Out</a>
+                </div>                               
+            </div>
+            <div class="language" style="position:absolute; left:0;">
+                <div id="smt-lang-selector"></div>
+            </div>           
+            <div id="login_content" class="hide">
+                <div class="col1 cols"></div>
+                <div class="col2 cols">
+                    <h2>Not yet a Member?</h2>
+                    <ul>
+                        <li>Meet 4 million+ friendly members</li>
+                        <li>5000+ video chat rooms</li>
+                        <li>Free group video calls</li>
+                        <!--<li>Cheap calls and SMS to landlines<br/> and cellphones</li>-->
+                    </ul>
+                    <a href="#" id="change_class"><img src="/new0312/images/en_US/download_btn_login.png" alt="Download Free Now"  /></a>
+                </div>
+                <div id="signin" class="col3 cols">
+                    <form action="https://commerce.paltalk.com/sson/login" onsubmit="return validateLogin()" method="post" name="loginform">
+                        <h2>Already a Member, login.</h2>
+                        <div id="errormsg"></div>
+                        <label for="nickname">Nickname:</label>
+                        <input type="text" id="nickname" name="username" />
+                        <label style="margin-top:22px;" for="password">Password:</label>
+                        <input type="password" id="password" name="password" />
+                        <div style="width:282px;position:relative; height:20px;">
+                            <a href="https://commerce.paltalk.com/mpt/ControllerServlet?RequestId=MyPalTalk.ForgotPassword" class="forgot_pass">Forgot your password?</a>
+                        </div>
+                        <input class="login_btn" type="submit" value=""/>
+                        <input type="hidden" name="target" value="https://commerce.paltalk.com/mpt/MyPalTalkHome.jsp" />
+                        <input type="hidden" name="failure_target" value="http://www.paltalk.com/index.php" />
+                        <input type="hidden" name="action" value="login" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- end panel -->
+
+    <div class="centered_div" style="position:relative; z-index:100;"><a href="http://www.paltalk.com/" id="logo" style="position:absolute; z-index:100;"><img src="/new0312/images/paltalk-logo.png" alt="Paltalk logo" style="display:none;" /></a></div>
+
+    <div id="header_wrap">
+        <div id="header">
+            <div class="centered_div" style="height:188px;">
+                <div class="vert_border_long">
+                    <div class="vert-line-hider"></div>
+                    <div class="centered_div">
+                        <div class="vert_border"><span></span></div>
+                    </div>
+            	</div>
+                <div id="download_section">
+                    <ul class="spec_list">
+                        <li>
+                            <a href="http://www.paltalk.com/download.php" id="buble_btn"><img src="new0312/images/logo_rec.png" alt="logo rec"/></a>
+                        </li>
+                        <li>
+                            <p class="text12_999"><span class="text15_666">Video Chat Rooms, Group Video Calls, Friendly Video Community, Mobile.</span>Works with Windows, Mac, Android & iOS.</p>
+                        </li>
+                        <li class="download_btn_wrap">
+                        <a id="dlu2" href="" class="dowload_btn" title="Download Paltalk Free"><img id="topd" src="/new0312/images/en_US/paltalk_top_btn.png" alt="Download Free!" /><img src="/new0312/images/en_US/download_btn.png" alt="Download" class="top-download" /></a>		
+                        </li>
+                    </ul>
+                </div>
+				<script type="text/javascript">_kmq.push(['trackClick','dlu2', 'Top Nav - Download']);</script>
+                <!-- end download_section -->
+                <ul id="mainNav" class="spec_list">
+                    <li><a href="http://www.paltalk.com/Video-Chatting-Features" id="a_features"><img id="feat" src="/new0312/images/en_US/menu_words_features.png" alt="Features" /></a>
+					<script type="text/javascript">_kmq.push(['trackClick','a_features', 'Top Nav - Features']);</script>
+                        <div class="drop_down_menu_wrap">
+                            <ul class="drop_down_menu">
+                                <li class="first-child"></li>
+                                <li><a href="http://www.paltalk.com/products.shtml">Paltalk</a></li>
+                                <li><a href="http://express.paltalk.com/?refc=86001" >Paltalk&nbsp;Express</a></li>
+                                <li><a href="http://www.paltalk.com/mobile-app">Paltalk&nbsp;Mobile</a></li>
+                                <li><a rel="add-refc" href="http://www.paltalk.com/website-video-chat?refc=83186">Video&nbsp;Chat&nbsp;Widget</a></li>
+                                <!--<li><a href="http://www.paltalk.com/create-a-chat-room">Embeddable&nbsp;Chat&nbsp;Rooms</a></li>
+                                <li><a href="http://www.vumber.com">Paltalk&nbsp;Vumber</a></li>-->
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="members_word"><a href="http://www.paltalk.com/members" id="a_members"><img src="/new0312/images/en_US/menu_words_members.png" alt="Members" /></a>
+					<script type="text/javascript">_kmq.push(['trackClick','a_members', 'Top Nav - Members']);</script>
+                        <div class="drop_down_menu_wrap">
+                            <ul class="drop_down_menu">
+                                <li class="first-child"></li>
+                                <li><a href="http://www.paltalk.com/members" >Browse&nbsp;Members</a></li>
+                                <li><a id="manageprofile" href="http://www.paltalk.com/manage-profile">Manage&nbsp;My&nbsp;Profile</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="chat_rooms_word"><a href="http://www.paltalk.com/free-chat-rooms" id="a_chatrooms"><img src="/new0312/images/en_US/menu_words_chatrooms.png" alt="Chat Rooms" /></a>
+					<script type="text/javascript">_kmq.push(['trackClick','a_chatrooms', 'Top Nav - Chat Rooms']);</script>
+                        <div class="drop_down_menu_wrap">
+                            <ul class="drop_down_menu">
+                                <li class="first-child"></li>
+                                <li><a href="http://www.paltalk.com/free-chat-rooms">Browse&nbsp;Chat&nbsp;Rooms</a></li>
+                                <li><a id="manageroom" href="http://www.paltalk.com/manage-room">Manage&nbsp;Chat&nbsp;Room</a></li>
+                                <li><a rel="add-refc" href="http://www.paltalk.com/create-a-chat-room?refc=83190">Video&nbsp;Chat&nbsp;for&nbsp;your&nbsp;Site</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mobile_word"><a href="http://www.paltalk.com/mobile-app" id="a_mobile"><img src="/new0312/images/en_US/menu_words_mobile.png" alt="Mobile" /></a>
+					<script type="text/javascript">_kmq.push(['trackClick','a_mobile', 'Top Nav - Mobile']);</script>
+                        <div class="drop_down_menu_wrap">
+                            <ul class="drop_down_menu">
+                                <li class="first-child"></li>
+                                <li><a href="https://itunes.apple.com/us/app/paltalk-video-chat/id466970942?mt=8">iPhone</a></li>
+								<li><a href=" https://play.google.com/store/apps/details?id=com.paltalk.chat.android&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5wYWx0YWxrLmNoYXQuYW5kcm9pZCJd">Android</a></li>
+                                <!--<li><a href=" http://www.windowsphone.com/en-us/store/app/paltalk-video-chat/6b37039d-b94e-498c-b522-3db8bc056256">Windows Phone</a></li>-->
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="search_word"><span><strong>Search</strong></span><div class="search_caret"></div></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end header -->
+        
+        <div class="search_div">        
+            <form method="get" name="homepagefrm" onSubmit="javascript:searchSubmit();return false;">
+                <input name="search" value="advanced" type="hidden"/>
+                <ul class="centered_div spec_list">		
+                    <li>
+                        <label class="search_input_label" for="search_people_input"><strong>Search People</strong></label> 
+                    </li>
+                    <li style="width:325px;">
+                        <input id="search_people_input" type="text" name="tag" />
+                       <span id="genderimage" class="female"></span>
+                        <a href="javascript:setAdvsrchCookie();" class="advanced_search_link">Advanced Search</a>
+                    </li>
+                    <li>
+                        <input class="search_btn" type="submit" value=""/>
+                    </li>
+        
+                    <li style="width:356px; height:130px;">
+                       <ul class="search_results"><li><span>F,43</span><a href = 'http://www.paltalk.com/people/users/Meesa711/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/47/888/751/tn3/SQ1_47888751180012630124.jpg' alt='Meesa711'/></a></li><li><span>M,21</span><a href = 'http://www.paltalk.com/people/users/0-3D 0/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/74/77/161/tn3/SQ1_740771614797086551.jpg' alt='0-3D 0'/></a></li><li><span>M,45</span><a href = 'http://www.paltalk.com/people/users/Camarokid980/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/43/138/234/tn3/SQ1_431382346068981646.jpg' alt='Camarokid980'/></a></li></ul>                    </li>
+                    <li style="height:130px;">
+                        <a href="http://www.paltalk.com/people/webapp/index.wmt" class="link_more see_all">See All</a>
+                    </li>
+                    <li>
+                        <span class="close_search_panel_btn"></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!-- end search_div -->
+    </div>
+<!-- end header_wrap -->
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(window).scroll(function() {
+		var scroll_number =getBodyScrollTop();
+		var panel_height;
+		if ($('#panel').css('height') == "415px") {
+		  panel_height = 415;
+		} else {
+		  panel_height = 40;
+		}
+		
+		if (scroll_number<=panel_height) {
+			$("#logo").css({'position':'absolute'});
+		} else {
+			$("#logo").css({'position':'fixed'});
+		}
+	});
+});
+</script><!-- header ends here -->
+
+<div id="content">
+    <div id="slider" class="slider">
+        <div id="ts_slideshow">
+            <div id="ts_slidesContainer" style="position:relative;">
+                <div class="ts_slide point_1" style="display:block;" >
+                    <div class="online_now">
+                        <h3>Members Online Now:</h3>
+                        <span class="time_generated notranslate">json: 04/20/2013 - 03:30:03.458 </span><div class="count notranslate"><img src='new0312/images/onlinecount/6.png' width="46" height="63" alt='6' /><img src='new0312/images/onlinecount/0.png' width="46" height="63" alt='0' /><img src='new0312/images/onlinecount/members_online_now_comma.png' width="11" height="63" /> <img src='new0312/images/onlinecount/5.png' width="46" height="63" alt='5' /><img src='new0312/images/onlinecount/1.png' width="46" height="63" alt='1' /><img src='new0312/images/onlinecount/7.png' width="46" height="63" alt='7' /></div><span class="load_date notranslate">sysinfo: Sat Apr 20 03:21:22 EDT 2013</span>                    </div>                    
+					<img src="new0312/images/video_chat_rooms.png" style="padding:7px 0px 0px 3px;"/>
+                    <div>
+                        <h1>Thousands of Video Chat Rooms</h1>
+                        <p><strong>Welcome</strong> to the largest online video chat room community. Explore thousands of video chat rooms and meet millions of friendly members.</p>
+                    </div>
+                </div>
+              
+            </div>
+			<!-- end ts_slidesContainer -->
+            
+           <!-- Code commented per req dated 15.01.2013
+            <div id="progress_slide_bar" class="progress_slide_bar" style="display:block;">
+            	<span></span>
+			</div>
+            
+            <ul id="ts_slide-nav">
+
+                <li class="ts_active_dot">
+                    <p rel="1">Video Chat Rooms</p>
+                    <span></span>
+                    <ins class="left_bar"></ins>
+				</li>
+                <li>
+                    <p rel="2">Video Calls</p>
+                    <span></span>
+				</li>
+                <li>
+                    <p rel="3">Video Community</p>
+                    <span></span>
+				</li>
+                <li>
+                    <p rel="4">Mobile</p>
+                    <span></span>
+                    <ins class="right_bar"></ins>
+				</li>
+            </ul>
+            Code commented ends here -->
+			<!-- end ts_slide-nav -->
+            
+			<a id="dlu1" href="" class="download_its_free" title="Download Paltalk Free"><img src="/new0312/images/en_US/paltalk_main_btn.png" alt="Download Paltalk Free" /></a>				
+            <div class="app_icons" id="beta_d"></div>
+        </div>
+        <!-- end ts_slideshow -->
+    </div>
+	<!-- end slider -->
+	<script type="text/javascript">_kmq.push(['trackClick','dlu1', 'Paltalk.com - Main Download button']);</script>
+	<script type="text/javascript">_kmq.push(['trackClick','bdlu1', 'Paltalk.com - Beta link']);</script>
+    
+    <div id="whos_online">
+        <div class="centered_div">
+            <div class="whois_online_icon">
+            	<h2 id="popularmembers" class="h3">Who is on Now</h2>
+            </div>
+            <a href="javascript:void(0);" id="online_expandview" class="link_more hide" id="a_wion" style="bottom:13px;">Expand to View</a>
+			<script type="text/javascript">_kmq.push(['trackClick','a_wion', 'Paltalk.com - Who is on now - toggle']);</script>
+            <div id="members_slide" rel="members">
+				<ul class="horizantal_items spec_list"><li><a href = 'http://www.paltalk.com/people/users/87rspencer/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/73/520/434/tn3/SQ1_735204344003025431.jpg' alt='87rspencer'/></a><p class="item_text_h1"><a href='http://www.paltalk.com/people/users/87rspencer/index.wmt'>87rspencer</a></p><p class="item_text_h2">M, 26 Sweden</p><p class="item_desc">Im 24y oldand i live in sweden with my friend Andrew. We play in a band called Aleomite, kind of an irish/pub music genre. </p></li><li><a href = 'http://www.paltalk.com/people/users/asdfff_19/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/69/442/830/tn3/SQ1_69442830123031472150.jpg' alt='asdfff_19'/></a><p class="item_text_h1"><a href='http://www.paltalk.com/people/users/asdfff_19/index.wmt'>asdfff_19</a></p><p class="item_text_h2">M, 21 Australia</p><p class="item_desc">Ask and the knowledge shall be known to you......</p></li><li><a href = 'http://www.paltalk.com/people/users/Thien Dduong/index.wmt' > <img src='http://images.paltalk.com/peoplepicstop/10/139/395/tn3/SQ1_101393954201951228.jpg' alt='Thien Dduong'/></a><p class="item_text_h1"><a href='http://www.paltalk.com/people/users/Thien Dduong/index.wmt'>Thien Dduong</a></p><p class="item_text_h2">M, 45 United States</p><p class="item_desc">appreciated what i got and what GOD gave me, enjoy the beauty of mother nature  http://s566.photobucket.com/albums/ss101/thienchuong/</p></li></ul>                <div class="clear"></div>
+                <a href="http://www.paltalk.com/people/webapp/index.wmt" id="a_see_all_profiles" class="link_more">See All Profiles</a>
+				<script type="text/javascript">_kmq.push(['trackClick','a_see_all_profiles', 'Paltalk.com - Who is on now - See All Profiles']);</script>
+			</div>		
+        </div> 
+    </div>
+    <!-- end whos_online -->
+
+    <div id="popular_chat">
+        <div class="centered_div">
+            <div class="popular_chat_icon">
+                <h2 id ="popularchatrooms" class="h3">Popular Chat Rooms</h2>
+            </div>
+			<a href="javascript:void(0);" id="chat_expandview" class="link_more hide" id="a_pcr" style="bottom:13px;">Expand to View</a>
+			<script type="text/javascript">_kmq.push(['trackClick','a_pcr', 'Paltalk.com - Popular Chat Rooms - toggle']);</script>    
+			<div id="chatrooms_slide" rel="chatrooms">
+                <span class="minislider_control_l"></span>
+                <div class="mini_slider_wrap">
+                    <ul class="horizantal_items spec_list"><li><a href=javascript:executeCmd("paltalk://groups/1362274475")><img src="/new0312/images/SOL.jpg" alt="Deepak Chopra Soul of Leadership Series" /></a><p class="item_text_h1"><a href=javascript:executeCmd("paltalk://groups/1362274475")>Deepak Chopra Soul of Leadership Series</a></p><p class="item_desc">Join bestselling author and spiritual guide, Deepak Chopra, in this unique 7 part video course. Learn how to be a better Leader!</p></li><li><a href=javascript:checkPaltalkInstall("1029354185")><img src="/en/images/us-election-v1.jpg" alt="US Election Central 2012" /></a><p class="item_text_h1"><a href=javascript:checkPaltalkInstall("1029354185")>US Election Central 2012</a></p><p class="item_desc">Check out News Talk Online Monday thru Friday at 5pm New York time...</p></li><li><a href='javascript:executeCmd("paltalk://groups/1368211614")' ><img src='http://images.paltalk.com/media/3/477/344/tn3/SQ1_groupphoto.jpg' alt='Internationals Meet New Friends' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1368211614")'>Internationals Meet New Friends</a></p><p class="item_desc">Paltalks #1 original internationals room for voice and video,visit us today!</p><p class="members"><strong>members</strong><span class="notranslate">: 371</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1498655446")' ><img src='http://images.paltalk.com/media/3/986/890/tn3/SQ1_groupphoto.jpg' alt='Veayo Somneang Dontrey' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1498655446")'>Veayo Somneang Dontrey</a></p><p class="item_desc">Khmer karaoke</p><p class="members"><strong>members</strong><span class="notranslate">: 24</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1438027931")' ><img src='http://images.paltalk.com/media/3/750/64/tn3/SQ1_groupphoto.jpg' alt='International Friendz PartyZone' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1438027931")'>International Friendz PartyZone</a></p><p class="item_desc">Welcome to Paltalk</p><p class="members"><strong>members</strong><span class="notranslate">: 14</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1498192318")' ><img src='http://images.paltalk.com/media/3/985/81/tn3/SQ1_groupphoto.jpg' alt='LMFAO Canada' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1498192318")'>LMFAO Canada</a></p><p class="item_desc">(o o)        ~~oOOo~(_)~oOOo~~   Nudity - No Haters - No Insulting</p><p class="members"><strong>members</strong><span class="notranslate">: 13</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1307767602")' ><img src='http://images.paltalk.com/media/3/241/235/tn3/SQ1_groupphoto.jpg' alt='Extra' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1307767602")'>Extra</a></p><p class="item_desc">Here You Go</p><p class="members"><strong>members</strong><span class="notranslate">: 33</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1508665132")' ><img src='http://images.paltalk.com/media/4/25/991/tn3/SQ1_groupphoto.jpg' alt='Interracial Dating bad girls 4 bad boys' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1508665132")'>Interracial Dating bad girls 4 bad boys</a></p><p class="item_desc">WiLD and fun for all to enjoy</p><p class="members"><strong>members</strong><span class="notranslate">: 6</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1501221670")' ><img src='http://images.paltalk.com/media/3/996/915/tn3/SQ1_groupphoto.jpg' alt='Protective Custody' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1501221670")'>Protective Custody</a></p><p class="item_desc">Protective Custody! A fun and awesome room where you can kick up your feet and laugh!</p><p class="members"><strong>members</strong><span class="notranslate">: 22</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1114064623")' ><img src='http://images.paltalk.com/media/2/484/582/tn3/SQ1_groupphoto.jpg' alt='Dalmacija i mi' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1114064623")'>Dalmacija i mi</a></p><p class="item_desc">Dobro dosli  i lipo se zabavili uz zabavnu glazbu !</p><p class="members"><strong>members</strong><span class="notranslate">: 5</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1300496722")' ><img src='http://images.paltalk.com/media/3/212/833/tn3/SQ1_groupphoto.jpg' alt='Merrys Fireside Chat And Music' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1300496722")'>Merrys Fireside Chat And Music</a></p><p class="item_desc">40s up all seniors welcome...YES WE ARE OPEN 24/7 COME JOIN US ANYTIME DAY OR NIGHT!!</p><p class="members"><strong>members</strong><span class="notranslate">: 24</span></p></li><li><a href='javascript:executeCmd("paltalk://groups/1321172234")' ><img src='http://images.paltalk.com/media/3/293/597/tn3/SQ1_groupphoto.jpg' alt='Conservative Ideology Forum' /></a><p class="item_text_h1"><a href='javascript:executeCmd("paltalk://groups/1321172234")'>Conservative Ideology Forum</a></p><p class="item_desc">Discussion about conservative values and vetting for 2016</p><p class="members"><strong>members</strong><span class="notranslate">: 4</span></p></li></ul>                </div>
+                <span class="minislider_control_r"></span>
+                <div class="clear"></div>
+                <a href="http://www.paltalk.com/g2/webapp/groups/GroupsPage.wmt" id="a_see_more_rooms" class="link_more">See More Chat Rooms</a>
+				<script type="text/javascript">_kmq.push(['trackClick','a_see_more_rooms', 'Paltalk.com - Popular Chat Rooms - See More Chat Rooms']);</script>
+			</div>
+        </div>
+    </div>
+	<!-- end popular_chat -->
+    
+    <div id="news">
+        <div class="centered_div">
+            <div class="news_icon">
+                <h2 id="paltalknews" class="h3">Paltalk in the News</h2>
+            </div>
+            <a href="javascript:void(0);" id="news_expandview" class="link_more hide" style="bottom:13px;">Expand to View</a>
+            <div id="news_slide" rel="news">                
+                <ul class="horizantal_items spec_list">
+						<li>
+                        	<img src="new0312/images/wilson-kriegel.jpg" alt="Wilson Kriegel"/>
+                            <p class="item_desc">OMGPOP’s Chief Revenue Officer Wilson Kriegel Becomes President, COO of Video Chat Startup Paltalk.<br/><a href="http://techcrunch.com/2012/12/03/wilson-kriegel-paltalk/" target="_blank">Read More</a></p>
+                        </li>
+                    	<li>
+                        	<a id="wsj" class="wsj" onclick="javascript:playVideo('wsj');" href="#"><img class="play-button" alt="play" src="new0312/images/play-button.png"></a>
+                            <p class="item_desc">NY based Paltalk offers more than just talk. CEO Jason Katz sees today's popular handheld communication devices as ideal vehicles for its range of free services providing cutting-edge video and chat capabilities. <br/><a href="#" onclick="javascript:playVideo('wsj-readmore');" id="wsj-readmore">Read More</a></p>
+                        </li>
+                        <li>
+                        	<a href="http://blog.paltalk.com/paltalkawards/2007/05/cnet-editors-pick.html"><img src="new0312/images/cnet.jpg" alt="CNET" /></a>
+                            <p class="item_desc">Paltalk's integration of video, audio and text chatting unified into one window makes for a strong chatware program that includes a wealth of features. <a href="http://blog.paltalk.com/paltalkawards/2007/05/cnet-editors-pick.html">Read More</a></p>
+                        </li>
+              		</ul>
+                <div class="clear"></div>
+                <a href="http://blog.paltalk.com/paltalkpress/" class="link_more">See All News</a>
+			</div>
+        </div>
+    </div>
+    <!-- end news -->
+</div>
+<!-- end content -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var currentPosition = 0;
+	var slides = $('.ts_slide');
+	var numberOfSlides = slides.length;
+	var slideWidth = 1024;
+	
+	// Wrap all .slides with #slideInner div
+	slides
+	.wrapAll('<div id="ts_slideInner"></div>')
+	// Float left to display horizontally, readjust .slides width
+	.css({
+		'float' : 'left',
+		'width' : slideWidth
+	});
+	
+	// Set #slideInner width equal to total width of all slides
+	// $('#ts_slideInner').css('width', slideWidth * numberOfSlides);
+	// $('#ts_slideInner').css('marginLeft', -slideWidth);
+	
+	$('#ts_slideInner').css('width', 1024);
+	// Insert controls in the DOM
+	/* Code commented for the req dated 15.01.2013
+	$('#ts_slideshow')
+	.prepend('<span class="ts_control" id="ts_leftControl">Clicking moves left</span>')
+	.append('<span class="ts_control" id="ts_rightControl">Clicking moves right</span>');
+	
+	// Hide left arrow control on first load
+	
+	// Create event listeners for .controls clicks
+	$('.ts_control').bind('click', function(){
+		// Determine new position
+		currentPosition = ($(this).attr('id')=='ts_rightControl') ? 1 : -1;
+		clearInterval(intervalID);
+		animate(currentPosition, numberOfSlides, slideWidth);
+		$('#progress_slide_bar').css("visibility", "hidden");
+	});
+	
+	$('#ts_slide-nav p').bind('click', function(){
+		clearInterval(intervalID);
+		$('#progress_slide_bar').css("visibility", "hidden");
+		animate($(this).parent(), numberOfSlides, slideWidth);	
+	});
+	code commented ends here
+	*/
+	
+	$('.search_word span')
+	.bind('click', function(){	
+		if($('.search_word').is('.busy1')){return;};
+		$('.search_word').addClass('busy1');
+			
+		if ($('.search_div').css('display') =='none') {
+			$('.search_div').css('display','block');
+			$('.search_div').animate({
+				height: '+=130'
+			}, 1000, function() {
+				$('.search_word').removeClass('busy1');
+			});
+			
+			$('#header_wrap').animate({
+				height: '+=131'
+			}, 1000, function() {
+			});
+			$('.search_caret').css('display','block');
+		}
+		else {
+			$('.search_div').animate({
+				height: '-=130'
+			}, 1000, function() {
+				$('.search_div').css('display','none');
+			});
+			
+			$('#header_wrap').animate({
+				height: '-=131'
+			}, 1000, function() {
+			$('.search_word').removeClass('busy1');
+			});
+			
+			$('.search_caret').css('display','none');
+		}
+	});
+		// Code commented for the req dated 15.01.2013
+	//intervalID = setInterval(function(){animate(0, 4, 1024)},10000);
+});
+</script>
+
+<!-- footer starts here -->
+<div id="footer">
+    <div class="centered_div">
+        <ul class="footer_nav spec_list">
+            <li>
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="http://www.paltalk.com/chat-sites-download?refc=83190" rel="add-refc">Paltalk Download</a></li>
+                    <li><a href="http://express.paltalk.com/?refc=86001" rel="add-refc">Video Chat for Mac</a></li>
+                    <li><a href="http://www.paltalk.com/mobile-app">Paltalk Mobile</a></li>
+                    <li><a href="http://www.paltalk.com/features/community.shtml#1">Web Video Call</a></li>
+                    <li><a href="http://www.paltalk.com/create-a-chat-room?refc=83186" rel="add-refc">Video Chat Room</a></li>
+					<!--<li><a href="http://www.paltalk.com/calling-and-sms">Calling and SMS</a></li>-->
+                    <li><a href="http://www.paltalk.com/superim/">SuperIM</a></li>
+                    <li><a href="http://www.paltalk.com/superim/">SuperIM URL</a></li>
+                    <li><a href="http://www.paltalk.com/vgifts/">Virtual Gifts</a></li>
+                    <li><a href="http://www.paltalk.com/hi-res/">High Resolution Video</a></li>
+                    <li><a href="http://www.paltalk.com/features/extras.shtml#3">Send Large Files</a></li>
+                    <li><a href="http://www.hearme.com/features/application_sharing.shtml">HearMe Desktop Sharing</a></li>
+                    <li><a href="http://www.hearme.com/">Conferencing</a></li>
+                    <li><a href="http://www.paltalk.com/features/extras.shtml#4">Video Messages</a></li>
+                    <li><a href="http://www.paltalk.com/features/communication.shtml#5">Phone Calls</a></li>     
+					<li><a href="http://www.vumber.com/what_is_a_vumber.aspx">Virtual Numbers</a></li>               
+                </ul>
+            </li>
+            <li>
+                <ul>	
+                    <li><a href="http://www.paltalk.com/features/communication.shtml#6">Text Chat</a></li>
+                    <!--<li><a href="http://www.paltalk.com/features/communication.shtml#7">VOIP Chat</a></li>-->
+                    <li><a href="http://www.paltalk.com/members">Search for Friends</a></li>
+                    <li><a href="http://www.paltalk.com/free-chat-rooms">Search for Rooms</a></li>
+                    <li><a href="http://www.paltalk.com/website-video-chat?refc=83186" rel="add-refc">Video Chat Widget</a></li>
+                    <li><a href="http://www.paltalk.com/create-a-chat-room?refc=83187" rel="add-refc">Embeddable Chat Rooms</a></li>
+				</ul>                
+                <h4 class="connect">Connect</h4>                
+                <ul>
+                	<li><a href="http://www.paltalk.com/all-languages/">Download Paltalk<br />(All Languages)</a></li>
+                    <!--<li><a href="http://www.paltalk.com/communication.shtml">MSN Chat</a></li>-->
+                    <li><a href="http://www.paltalk.com/communication.shtml">Google Chat</a></li>
+                    <li><a href="http://www.paltalk.com/communication.shtml">Facebook Chat</a></li>
+                    <li><a href="http://www.paltalk.com/communication.shtml">AIM Chat</a></li>
+                    <li><a href="http://www.paltalk.com/communication.shtml">Yahoo Chat</a></li>
+                    <!--<li><a href="http://www.paltalk.com/bb/features.html">Paltalk for Blackberry</a></li> -->
+					<li><a href="http://www.paltalk.com/android/">Paltalk for Android</a></li>	
+					<li><a href="http://www.paltalk.com/iphone/">Paltalk for iPhone</a></li>
+                </ul>
+            </li>        
+            <li style="margin-right:80px;">
+                <h4 class="share">Share</h4>            
+                <ul>
+                    <li><a href="http://client.paltalk.com/client/webapp/invite/Invite.wmt?refc=83188" id="invitebyemail" rel="add-refc">Invite by Email</a></li>
+					<li><a href="http://www.paltalk.com/chat-sites-download?refc=83189" rel="add-refc">Invite by Paltalk</a></li>
+                </ul>            
+                <h4 class="aboutus">About Us</h4>            
+                <ul> 
+                    <li><a href="http://blog.paltalk.com/press/">Press</a></li>
+                    <li><a href="http://blog.paltalk.com/articles/">Articles</a></li>
+                    <li><a href="http://blog.paltalk.com/articles/">Reviews</a></li>
+                    
+                    <li><a href="http://blog.paltalk.com/awards/">Awards</a></li>
+                    <li><a href="http://blog.paltalk.com/media/">Video Clips</a></li>				
+                    <li><a href="http://blog.paltalk.com/">Blog</a></li>
+                    <li><a href="http://www.paltalk.com/Paltalk_Press_Kit.pdf">Press Kit</a></li>
+                    <li><a href="http://www.paltalk.com/buy">Store</a></li>
+					<li><a href="http://www.paltalk.com/paltalk_shows.html">Paltalk Shows</a></li>
+				</ul>
+            </li>
+            <li style="margin-right:35px;">
+                <h4 class="partners">Partners</h4>        
+                <ul>
+					<li><a href="http://www.paltalk.com/advertisers">Advertise</a></li>
+                    <li><a href="http://www.paltalk.com/partner">Partnerships</a></li>
+                    <li><a href="http://www.paltalk.com/partnerships/">Business Development</a></li>
+                    <li><a href="http://www.paltalk.com/affiliate/">Affiliates</a></li>
+				</ul>        
+                <h4 class="support">Support</h4>        
+                <ul>
+                    <li><a href="http://www.paltalk.com/translation">Translate Paltalk</a></li>
+                    <li><a href="http://support.paltalk.com">Support Home</a></li>
+                    <li><a href="http://www.paltalk.com/faq">FAQs</a></li>
+                    <li><a href="http://www.paltalk.com/contact_paltalk">Contact Us</a></li>
+                    <li><a href="http://www.paltalk.com/sitemap">Site Map</a></li>
+                    <li><a id="manageaccount" href="https://commerce.paltalk.com/mpt/MyPalTalkHome.jsp">Manage Account</a></li>
+                    <li><a id="editroomurl" href="http://www.paltalk.com/manage-room">Manage Room</a></li>
+					<li><a id="editprofileurl" href="http://www.paltalk.com/manage-profile">Manage Profile</a></li>
+                </ul>
+            </li>
+            <li style="margin-right:0px;">
+                <h4 class="legal">Legal</h4>        
+                <ul>
+                    <li><a href="http://www.paltalk.com/privacy">Privacy</a></li>
+					<li><a href="http://www.paltalk.com/terms">TOS</a></li>
+                </ul>        
+                <h4 class="social-networks">Social Networks</h4>
+                <ul>
+		            <li><a href="http://www.facebook.com/Paltalk" class="facebook">Facebook</a></li>
+                    <li><a href="http://twitter.com/paltalk" class="twitter">Twitter</a></li>
+					<li><a href="https://plus.google.com/u/0/b/109966837572214932933/109966837572214932933/posts" class="gplus">Google+</a></li>
+                    <li><a href="http://www.youtube.com/paltalkscene">YouTube</a></li>
+                </ul>        
+                <h4 class="paltalk-family">Paltalk Family</h4>        
+                <ul>
+                    <li><a href="http://www.paltalk.com">Paltalk Video Chat</a></li>
+                    <li><a href="http://www.firetalk.com">Free Calls and SMS</a></li>
+                    <li><a href="http://www.vumber.com">Virtual Phone</a></li>
+					<li><a href="http://www.camfrog.com">Camfrog Video Chat</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end footer -->
+
+<!-- Start Quantcast tag -->
+<script language="javascript">document.getElementsByTagName("html")[0].dir = "ltr";</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-91mBChr87YHGg";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-91mBChr87YHGg" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-91mBChr87YHGg.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- START GOOGLE ANALYTICS -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1854096-1']);
+_gaq.push(['_setDomainName', '.paltalk.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();	
+</script>
+<!-- END GOOGLE ANALYTICS -->
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "13846821" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=13846821&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- Google Remarketing Code -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1070936763;
+var google_conversion_label = "_QV1CNfZ7BQQu-XU_gM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1070936763/?value=0&amp;label=_QV1CNfZ7BQQu-XU_gM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google Remarketing Code --><!-- footer ends here -->
+
+<script type="text/javascript" src="http://dnn506yrbagrg.cloudfront.net/pages/scripts/0003/6083.js"></script>
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName('script')[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0003/6083.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+</body>
+</html>
